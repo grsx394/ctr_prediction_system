@@ -10,23 +10,8 @@ An end-to-end Click-Through Rate (CTR) prediction system for online advertising.
 This project predicts the probability that a user will click on an advertisement based on ad impression features. The focus is on engineering quality, reproducibility, and proper evaluation — not state-of-the-art performance.
 
 ## System Architecture
-```
-Raw Ad Logs (CSV)
-       ↓
-   Data Loader (validation, splitting)
-       ↓
-   Feature Engineering (time features, scaling)
-       ↓
-   ┌─────────────────────────────────────┐
-  │  Baselines          │  ML Models        │
-  │  - Global CTR       │  - Logistic Reg   │
-  │  - Per-Ad CTR       │  - XGBoost        │
-   └─────────────────────────────────────┘
-       ↓
-   Evaluation (AUC-ROC, Log Loss)
-       ↓
-   Predictions (CSV)
-```
+![System Architecture](architecture.png)
+
 
 ## Results
 
