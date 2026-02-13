@@ -18,9 +18,9 @@ Raw Ad Logs (CSV)
    Feature Engineering (time features, scaling)
        ↓
    ┌─────────────────────────────────────┐
-   │  Baselines          │  ML Model     │
-   │  - Global CTR       │  - Logistic   │
-   │  - Per-Ad CTR       │    Regression │
+  │  Baselines          │  ML Models        │
+  │  - Global CTR       │  - Logistic Reg   │
+  │  - Per-Ad CTR       │  - XGBoost        │
    └─────────────────────────────────────┘
        ↓
    Evaluation (AUC-ROC, Log Loss)
