@@ -4,7 +4,6 @@ An end-to-end Click-Through Rate (CTR) prediction system for online advertising.
 
 ## Project Overview
 
-**Course:** CS 5130  
 **Goal:** Build a well-engineered ML system, not just a model
 
 This project predicts the probability that a user will click on an advertisement based on ad impression features. The focus is on engineering quality, reproducibility, and proper evaluation — not state-of-the-art performance.
