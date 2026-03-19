@@ -21,6 +21,15 @@ This project predicts the probability that a user will click on an advertisement
 | Logistic Regression| 0.6524  | 0.4353   | Simple ML model |
 | **XGBoost**        | **0.7172** | **0.4129** | **Best model** |
 
+## 🚀 Live Demo
+
+**API is live at:** [https://ctr-prediction-api.onrender.com](https://ctr-prediction-api.onrender.com)
+
+- **Swagger Docs:** [https://ctr-prediction-api.onrender.com/docs](https://ctr-prediction-api.onrender.com/docs)
+- **Health Check:** [https://ctr-prediction-api.onrender.com/health](https://ctr-prediction-api.onrender.com/health)
+
+Try it yourself — send a POST request to `/predict` with ad impression features!
+
 **Key Findings:**
 1. XGBoost outperforms all baselines and Logistic Regression on both metrics
 2. Per-Ad CTR is a surprisingly strong baseline — simple historical aggregates work well
