@@ -25,7 +25,7 @@ This project predicts the probability that a user will click on an advertisement
 
 **API is live at:** [https://ctr-prediction-api.onrender.com](https://ctr-prediction-api.onrender.com)
 
-- **Swagger Docs:** [https://ctr-prediction-api.onrender.com/docs](https://ctr-prediction-api.onrender.com/docs)
+- **Deployed UI** [https://ctr-prediction-api.onrender.com/docs](https://ctr-prediction-api.onrender.com/docs) (Use this to see the viz)
 - **Health Check:** [https://ctr-prediction-api.onrender.com/health](https://ctr-prediction-api.onrender.com/health)
 
 Try it yourself — send a POST request to `/predict` with ad impression features!
